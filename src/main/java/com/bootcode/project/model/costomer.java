@@ -4,6 +4,9 @@ public class costomer {
 
     int id;
     String name;
+    String address;
+    long phone;
+    String city;
 
     public int getId() {
         return id;
@@ -44,9 +47,4 @@ public class costomer {
     public void setCity(String city) {
         this.city = city;
     }
-
-    String address;
-    long phone;
-    String city;
-
 }
